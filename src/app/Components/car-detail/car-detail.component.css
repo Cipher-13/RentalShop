@@ -1,0 +1,36 @@
+
+
+.rhs{margin-top: 50px;}
+.banner{
+  background-color:#e4edf8;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0px;
+  height:50px;
+  width:300px;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  }
+
+  .banner p{text-align: center;color: rgb(37, 37, 199);}
+
+  .collection img {
+    position: relative;
+  bottom: 400px;
+  right:80px;
+  width: 90%;
+  }
+
+   
+
+  .choice{
+    background:whitesmoke;
+    margin:60px 40px;
+    font-size:25px;
+    line-height: 2;
+  }
+
+  .choice h5{
+
+    text-align:center
+  }

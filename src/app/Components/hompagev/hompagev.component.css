@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1440px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top:-400px;
+}
+.left-section {
+  flex: 1;
+  padding: 20px;
+}
+.left-section h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.left-section p {
+  color: #555;
+}
+.buttons {
+  margin: 10px 0;
+}
+.buttons img {
+  width: 150px;
+  margin-right: 10px;
+}
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.right-section img {
+  position:relative;
+  top:15px;
+  width: 100%;
+  max-width: 500px;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .buttons img {
+      margin: 5px 0;
+  }
+}
+
+.app-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 200px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.big-text {
+  font-size: 18px;
+  font-weight: bold;
+}

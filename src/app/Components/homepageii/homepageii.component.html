@@ -1,0 +1,51 @@
+<section>
+
+
+  <div class="container mt-3"> <!--Search bar-->
+    <div class="input-group rounded p-2 bg-white">
+      <span class="input-group-text bg-transparent border-0">
+        <i class="fa-solid fa-location-dot text-secondary"></i>
+      </span>
+      <input type="text" class="form-control border-0 shadow-none" placeholder="Search By Name">
+      <button class="btn btn-primary px-4">Search</button>
+    </div>
+
+
+  </div>
+
+
+  <div class="banner">
+    <p>POPULAR RENTAL DEALS </p>
+  </div>
+  <h2>Most Popular Car Rental Deals</h2>
+
+
+  <div class="car-listings d-flex">
+
+    <div class="car-card" *ngFor="let car of carslist">
+        <div class="car-header">
+            <div class="car-image"><img [src]=image alt=""></div>
+            <div class="car-model">{{car.make}} {{car.model}}</div>
+            <div class="car-rating">4.8 (2,436 reviews)</div>
+        </div>
+        <div class="car-details">
+            <div class="detail-item passengers">4 Passagers</div>
+            <div class="detail-item ac">Air Conditioning</div>
+            <div class="detail-item transmission">{{car.transmission}}</div>
+            <div class="detail-item doors">4 Doors</div>
+        </div>
+        <div class="car-footer">
+            <div class="price">{{car.price}}</div>
+            <button class="rent-btn"[routerLink]="['/selected', car.id]">Rent Now</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="show-all">
+  <button class="show-all-btn" [routerLink]="['/list']">Show all Vehicles</button>
+</div>
+
+</section>

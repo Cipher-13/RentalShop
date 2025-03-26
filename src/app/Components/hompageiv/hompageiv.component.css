@@ -1,0 +1,59 @@
+.Holder {
+
+  padding: 90px 20px;
+
+}
+
+.banner {
+  background-color: #e4edf8;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0px;
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  border: 3px solid transparent;
+}
+
+.banner p {
+  text-align: center;
+  color: rgb(37, 37, 199);
+}
+
+.vector {
+  position: relative;
+  right: 20px;
+  
+}
+
+
+.vector img{width: 110%;}
+
+.model {
+  position: relative;
+  bottom: 550px;
+  right: 60px;
+}
+
+
+.Professions{margin-top:30px; position:relative; left:80px}
+
+.caseStudy{
+  padding: 20px;
+  background-color:white;
+}
+
+
+.iconContainer{
+  text-align:center;
+  position: relative;
+  top:25px;
+  font-size:35px;
+  height:80px;
+  width:80px;
+  border-radius:15px;
+  background-color: #e4edf8;
+}
+
+.iconContainer i{margin-top:20px;color :rgb(37, 37, 199)}
+

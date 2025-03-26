@@ -1,0 +1,199 @@
+section{margin-top:-600px}
+
+.input-group {box-shadow: 20px 10px 35px rgba(0, 0, 0, 0.2);}
+
+.banner{
+background-color:#e4edf8;
+padding: 10px;
+font-weight: bold;
+margin-top: 20px;
+height:50px;
+width:300px;
+margin-left: 600px;
+border-radius: 15px;
+border: 3px solid transparent;
+}
+
+.banner p{text-align: center;color: rgb(37, 37, 199);}
+ h2{white-space: nowrap; margin:30px 530px;}
+
+ .custom-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #333;  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 550px;
+  gap: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #F8F9FA;
+}
+
+.custom-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* If there's an unwanted top margin */
+.custom-btn {
+  margin-top: 0 !important;
+}
+
+
+
+.car-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.car-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+}
+
+.car-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.car-model {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.car-rating {
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.car-rating::before {
+  content: "★";
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.car-details {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+}
+
+.detail-item::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.passengers::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>');
+}
+
+.ac::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666"><path d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>');
+}
+
+.transmission::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>');
+}
+
+.doors::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666"><path d="M3 21v-2h2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v15h2v2H3zm4-2h2V4H7v15zm6 0h2V4h-2v15z"/></svg>');
+}
+
+.car-footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.car-image img{
+
+  width:100%;
+  border-radius: 25px;
+  margin-bottom: 15px;
+
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rent-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.rent-btn:hover {
+  background-color: #0069d9;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.show-all {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.show-all-btn {
+  background: lightgray;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 25;
+  margin:80px 655px;
+  height: 40px;
+  white-space: nowrap;
+  font-size: inherit;
+}
+
+
+.show-all-btn::after {
+  content: "→";
+  margin-left: 5px;
+}

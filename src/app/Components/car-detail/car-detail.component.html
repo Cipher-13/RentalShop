@@ -1,0 +1,42 @@
+<div class="Holder d-flex">
+
+  <div class="lhs">
+
+    <div class="vector"><img src="assets/Images/Vector.png" alt=""></div>
+    <div class="collection"><img src="assets/Images/collection.png" alt=""></div>
+
+  </div>
+
+
+
+  <div class="rhs">
+
+    <div class="banner">
+      <p>Why Choose Us </p>
+    </div>
+
+    <h2>We Offer Best Experience</h2>
+    <h2>With Our Rental Deals</h2>
+
+
+
+    <div class="choice">
+      <h5>You have Choosen {{carslist.make}} {{carslist.model}}</h5>
+
+      <ul>
+        <li>Model Year : {{carslist.year}}</li>
+        <li>Avaliable in {{carslist.color}} Color </li>
+        <li>Engine power {{carslist.engine}}</li>
+        <li>Maximum Horse Power {{carslist.horsepower}}</li>
+        <li>{{carslist.transmission}} Gear Type </li>
+        <li>Fuel : {{carslist.fuelType}} </li>
+        <li>Features : {{carslist.features}} </li>
+        <li>Price: {{carslist.price | currency}}</li>
+
+      </ul>
+
+    </div>
+    
+  </div>
+
+</div>
